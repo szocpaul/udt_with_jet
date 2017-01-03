@@ -168,4 +168,3 @@ JET_CHANGE_FORM_SIBLING_LINKS = True
 JET_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultIndexDashboard'
 # Same as JET_INDEX_DASHBOARD, but for application pages
 JET_APP_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultAppIndexDashboard'
-
