@@ -35,3 +35,5 @@ class DispatcherAdmin(admin.ModelAdmin):
     )
 
 admin.site.register(WorkOrder, DispatcherAdmin)
+admin.site.site_title = 'Universal Dispatcher Tool'
+admin.site.site_header = 'Universal Dispatcher Tool'
