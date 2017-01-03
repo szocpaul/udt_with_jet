@@ -19,5 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
     url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^index/', include(admin.site.urls)),
 ]
